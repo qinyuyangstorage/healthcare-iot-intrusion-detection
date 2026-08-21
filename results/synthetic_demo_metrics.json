@@ -1,0 +1,26 @@
+{
+  "dataset": "synthetic non-clinical IoMT traffic",
+  "seed": 42,
+  "train_rows": 1120,
+  "test_rows": 480,
+  "epochs": 60,
+  "retained_features_before_pca": 24,
+  "pca_explained_variance_ratio": [
+    0.13631138358386377,
+    0.05128157956220419
+  ],
+  "model_parameters": 289,
+  "final_batch_loss": 0.007296491414308548,
+  "accuracy": 0.9958333333333333,
+  "precision": 0.9956140350877193,
+  "recall": 0.9956140350877193,
+  "false_positive_rate": 0.003968253968253968,
+  "confusion_matrix": {
+    "tn": 251,
+    "fp": 1,
+    "fn": 1,
+    "tp": 227
+  },
+  "total_inference_ms": 0.1431670000000551,
+  "mean_inference_ms_per_record": 0.00029826458333344813
+}
